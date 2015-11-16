@@ -77,7 +77,9 @@ EOF
 chmod 755 $PKG/usr/bin/{w3af_console,w3af_gui}
 
 mkdir -p $PKG/usr/doc/$PRGNAM
+( cd $PKG/opt/$PRGNAM/doc
 cp -a $DOCS $PKG/usr/doc/$PRGNAM
+)
 
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM/$PRGNAM.SlackBuild
 
