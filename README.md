@@ -1,2 +1,9 @@
-# w3af-sbo
-w3af build scripts and its dependencies for SlackBuilds.org
+# w3af for SlackBuilds.org
+
+*  Contains all dependencies to run w3af on Slackware Linux
+*  Repo compatible with slackrepo software
+
+##### Links
+* [Slackware](http://www.slackware.com/)
+* [SlackBuilds.org](http://www.slackbuilds.org)
+* [slackrepo](https://idlemoor.github.io/slackrepo/index.html)
