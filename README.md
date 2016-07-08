@@ -1,8 +1,9 @@
-# w3af for SlackBuilds.org
+# w3af SlackBuilds
 
-*  Contains all dependencies to run w3af on Slackware Linux
-*  Repo compatible with slackrepo software
-*  w3af SlackBuild and related files located at network/w3af/
+This repository provides all the required SlackBuilds to build _w3af_ on
+Slackware Linux.  It aims to be compatible with _slackrepo_ for testing
+purposes.  The end goal is to incorporate _w3af_ into SlackBuilds.org
+for distribution.
 
 ##### Links
 * [w3af](https://github.com/andresriancho/w3af)
