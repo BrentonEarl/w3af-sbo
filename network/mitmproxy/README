@@ -1,0 +1,48 @@
+An interactive, SSL-capable, man-in-the-middle HTTP proxy for
+penetration testers and software developers.
+
+Documentation and tutorials can be found on the mitmproxy website.
+
+Features:
+
+*  Intercept HTTP requests and responses and modify them on the fly.
+*  Save complete HTTP conversations for later replay and analysis.
+*  Replay the client-side of an HTTP conversations.
+*  Replay HTTP responses of a previously recorded server.
+*  Reverse proxy mode to forward traffic to a specified server.
+*  Transparent proxy mode on OSX and Linux.
+*  Make scripted changes to HTTP traffic using Python.
+*  SSL certificates for interception are generated on the fly.
+*  And much, much more.
+
+Includes:
+
+mitmproxy is an interactive, SSL-capable man-in-the-middle proxy for
+HTTP with a console interface.
+
+mitmdump is the command-line version of mitmproxy. Think tcpdump for
+HTTP.
+
+libmproxy is the library that mitmproxy and mitmdump are built on.
+
+Maintainer's Notes:
+
+In order to use mitmproxy on your system a UTF-8 console environment
+must be active.  This must be activated by changing the LANG environment
+variable.  LANG can be configured on a system wide or per user basis.
+Directions assume you are running an en_US locale.
+
+For system wide configuration you need to edit /etc/profile.d/lang.sh.
+Change the LANG variable to read:
+
+export LANG=en_US.utf8
+
+For a per user configuration you need to add the LANG variable to
+the configuration of the active shell in each user's home directory.
+For the bash shell you would need to edit ~/.bash_profile and add:
+
+LANG=en_US.utf8
+
+Once the LANG environment variable has been added to your desired
+configuration file, you must log out and log back into your system. All
+new shells will use the new UTF-8 locale.
