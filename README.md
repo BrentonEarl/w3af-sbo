@@ -5,6 +5,12 @@ Slackware Linux.  It aims to be compatible with _slackrepo_ for testing
 purposes.  The end goal is to incorporate _w3af_ into SlackBuilds.org
 for distribution.
 
+### Warning
+
+The version of urwid in this repository _breaks_ the wicd daemon in
+Slackware.  Wicd is provided in extra/.  This newer version of urwid is
+required by mitmproxy.
+
 ### Build
 
 1.  Install Slackware64-current in a virtual machine
