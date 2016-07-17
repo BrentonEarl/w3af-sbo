@@ -5,6 +5,9 @@ Slackware Linux.  It aims to be compatible with _slackrepo_ for testing
 purposes.  The end goal is to incorporate _w3af_ into SlackBuilds.org
 for distribution.
 
+All testing should be done on a _FULL_ installation of
+Slackware-current.
+
 ### Warning
 
 The version of urwid in this repository _breaks_ the wicd daemon in
@@ -13,7 +16,7 @@ required by mitmproxy.
 
 ### Build
 
-1.  Install Slackware64-current in a virtual machine
+1.  Install Slackware-current in a virtual machine
 2.  Build the latest git revision of slackrepo
 3.  Install slackrepo in the fresh VM of Slackware
 4.  Clone the w3af-sbo repository into /home/$USER
@@ -27,7 +30,7 @@ required by mitmproxy.
 1.  Packages will be located in /var/lib/slackrepo/w3af-sbo/packages/
 2.  Run installpkg
 ``` bash
-installpkg /var/lib/slackrepo/w3af-sbo/packages/*/*/*/*/*.t?z 
+installpkg /var/lib/slackrepo/w3af-sbo/packages/*/*/*/*/*.t?z
 ```
 
 3.  Run w3af_console or w3af_gui to use w3af
